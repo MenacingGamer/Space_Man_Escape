@@ -147,7 +147,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1119235419861556}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.2, z: 0}
+  m_LocalPosition: {x: -47.15, y: 5.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4061189963547824}
@@ -218,7 +218,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: e43f7a16f0bfb9b41b9e80cdd1087c9c, type: 2}
+  - {fileID: 2100000, guid: 5237b1079ab49a94297a5968fce78a8d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -342,7 +342,7 @@ Rigidbody:
   m_GameObject: {fileID: 1119235419861556}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0.2
+  m_Drag: 0.74
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -476,8 +476,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7b71b6c9d9de9b4fb74839cfa0ad2e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rcsThrust: 150
-  mainThrust: 50
+  rcsThrust: 76.34
+  mainThrust: 20.08
 --- !u!135 &135439795607802866
 SphereCollider:
   m_ObjectHideFlags: 1
