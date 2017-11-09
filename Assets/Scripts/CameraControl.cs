@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraControl : MonoBehaviour {
 
-    public Rocket rocket;
+    public Transform rocket;
 
     private Vector3 offset;
     // Use this for initialization
@@ -15,5 +15,6 @@ public class CameraControl : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         transform.position = rocket.transform.position + offset;
+        transform.LookAt (rocket);
 	}
 }
