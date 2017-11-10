@@ -184,7 +184,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 5237b1079ab49a94297a5968fce78a8d, type: 2}
+  - {fileID: 2100000, guid: e6781d1d9c3d40541bb5cabf2c292450, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -218,7 +218,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 5237b1079ab49a94297a5968fce78a8d, type: 2}
+  - {fileID: 2100000, guid: e6781d1d9c3d40541bb5cabf2c292450, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -286,7 +286,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 5237b1079ab49a94297a5968fce78a8d, type: 2}
+  - {fileID: 2100000, guid: e6781d1d9c3d40541bb5cabf2c292450, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -394,7 +394,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e53b8283b16c4eb4490a8ba5d768f6d7, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 0.8
@@ -478,6 +478,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rcsThrust: 76.34
   mainThrust: 20.08
+  mainEngine: {fileID: 8300000, guid: d28eaa69317287449b557f050504aa34, type: 3}
+  dieExplosion: {fileID: 8300000, guid: ee636bddeaf763f4e8b6705d6ca54805, type: 3}
+  winSound: {fileID: 8300000, guid: 2e03088c98e308942ab183e1566bd40d, type: 3}
 --- !u!135 &135439795607802866
 SphereCollider:
   m_ObjectHideFlags: 1
